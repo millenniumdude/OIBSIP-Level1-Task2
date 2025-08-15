@@ -1,0 +1,163 @@
+html {
+    color: #ffffff;
+    scroll-behavior: smooth;
+
+}
+
+
+.image {
+    width: 150px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+body {
+    background-image: url(./assests/images/one_piece_simple.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+#skills, #textstacks, #footer {
+    background-color:  #ffffff;
+    color: black;
+    height: 450px;
+    margin: 48px 0px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 48px 0px;
+    height: 450px;
+}
+
+.hero h1, .hero h2 {
+    font-size: 40px;
+    margin: 10px 0px;
+} 
+
+.hero h2 {
+    margin: 0px 0px;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    padding: 48px 0px 0px;
+}
+
+.heading {
+    margin: 48px 0px;
+    font-size: 40px;
+}
+
+.web, .dsa {
+    display: flex;
+    text-align: left;
+    align-items: center;
+
+}
+.web {
+    padding-right: 24px;
+}
+
+
+.detail {
+    margin: 16px 0px;
+    color: #212529BF;
+}
+
+.skill-heading {
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+.section {
+    margin: 0px 0px 16px 16px ;
+}
+
+#skills {
+    padding: 48px 24px;
+}
+
+.cat {
+    /* padding: 16px; */
+    margin: 0rem 1rem ;
+    border-radius: 5px;
+}
+
+
+ #textstacks {
+    padding: 48px 24px;
+}
+
+
+.why-hire {
+    text-align: center;
+    height: 450px;
+    font-size: 30px;
+}
+
+.hire-details, .intro {
+    font-size: 25px;
+    padding: 0px 60px;
+    font-weight: 200;
+
+}
+.hire-details {
+    padding: 0px 10rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+#footer {
+    height: 150px;
+    margin: 0px 0px;
+}
+
+.footer-container {
+    padding: 24px 0px;
+    margin: 0px 0px;
+}
+
+.contact {
+    height: 30px;
+    padding: 5px;
+}
+
+button {
+    background-color: transparent;
+    margin: 24px ;
+    color: white; 
+    padding: 8px 24px;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    font-size: 24px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  color: #1A1A1A;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
